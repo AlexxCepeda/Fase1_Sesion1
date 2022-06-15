@@ -25,6 +25,8 @@ button {
     margin-right: 20px;*/
     margin: 40px 20px 0;
     font-size: 0;
+    height: 45px;
+
 }
 
 .logo {
@@ -37,15 +39,18 @@ button {
 
 li {
     display: inline;
+    margin: 0 25px;
 }
 
 .header>* {
     /*Todo lo que tenga la clase header le va a heredar propiedades*/
     display: inline-block;
+    font-family: sans-serif;
     font-size: 16px;
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+
 }
 
 .navbar {
@@ -57,9 +62,25 @@ li {
 
 .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+}
+
+.actions>* {
+    margin: 0 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
 
 .main {
