@@ -73,6 +73,7 @@ li {
 
 .actions a {
     color: #67b54b;
+    text-decoration: none;
 }
 
 .actions button {
