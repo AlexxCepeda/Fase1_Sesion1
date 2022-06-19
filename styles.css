@@ -147,3 +147,77 @@ li {
     width: 120px;
     margin-top: 10px;
 }
+
+
+.growing {
+    background-color: #a1d683;
+}
+
+.growing-ecommerce {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.growing-ecommerce img {
+    width: 24rem;
+}
+
+.g-info h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.g-info p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.g-info a {
+    color: #fff;
+    background-color: #025157;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sliders {
+    background-color: white;
+    height: 30rem;
+    margin: 5rem 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sliders>* {
+    width: 70%;
+}
+
+.sliders a {
+    color: #fff;
+    background-color: #025157;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.sliders p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #025157;
+}
