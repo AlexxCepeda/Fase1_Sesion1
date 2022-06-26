@@ -395,6 +395,10 @@ img {
         font-size: 30px;
     }
 
+    .logo img {
+        width: 2rem;
+    }
+
     .main {
         margin-top: 140px;
     }
@@ -471,13 +475,123 @@ img {
         margin-bottom: 20px;
         /* overflow: hidden; */
     }
+
+    .hm-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-content {
+        margin-bottom: 1rem;
+    }
 }
+
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {}
 
 /** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .navbar,
+    .actions {
+        display: none;
+    } */
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .logo img {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+
+    .main {
+        margin-top: 140px;
+    }
+
+    .banner>img {
+        width: 100%;
+    }
+
+    .publish>form {
+        flex-direction: column;
+    }
+
+    .publish>form>div {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .publish>form>div>input {
+        width: 60%;
+    }
+
+    .promo {
+        flex-direction: column;
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .flecha>video {
+        width: 100%;
+    }
+
+
+    .publish {
+        margin: 10px 0;
+    }
+
+    .publish>h2 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .feature-content {
+        margin: 0;
+        padding: 10%;
+        text-align: center;
+    }
+
+    .feature-image {
+        display: none;
+    }
+
+    .growing-ecommerce {
+        flex-direction: column;
+        padding: 0% 10%;
+        height: auto;
+
+    }
+
+    .g-info {
+        width: 90%;
+    }
+
+    .sliders {
+        margin-top: 50px;
+        width: 90%;
+        height: 100%;
+        margin-bottom: 20px;
+        /* overflow: hidden; */
+    }
+
+    .hm-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-content {
+        margin-bottom: 1rem;
+    }
+}
 
 /** dispositivos grandes (desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {}
