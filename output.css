@@ -173,7 +173,10 @@
     left: 40%;
   }
   .box-try {
-    height: 500px;
+    height: 550px;
+  }
+  .box-try p {
+    margin-bottom: 1rem;
   }
 }
 @media (min-width: 575px) {
