@@ -1,0 +1,73 @@
+.main {
+  margin: 10rem 0 3rem;
+}
+.main .banner img {
+  margin-top: 2rem;
+  width: 100px;
+  transform: rotate(-90deg);
+  animation-name: movimiento, alrededor;
+  animation-duration: 1s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes alrededor {
+  from {
+    left: -260px;
+  }
+  to {
+    left: 260px;
+  }
+}
+@keyframes movimiento {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.blog {
+  background-color: #fffbf7;
+  max-width: unset;
+  padding: 5% 5%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.blog .feature__img img {
+  width: 100%;
+}
+.blog .feature__title__anchor {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 24px;
+}
+.blog .feature__title__anchor .feature__title {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: #343434;
+  transition: color 0.3s ease-in-out, font-size 0.5s;
+}
+.blog .feature__title__anchor .feature__title:hover {
+  color: #67b467;
+  font-size: 30px;
+}
+.blog p {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */
